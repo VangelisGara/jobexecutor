@@ -17,16 +17,24 @@ Each worker creates a log file about the queries ran.  In the bash script folder
 Possible commands:
 
  - /search q1 q2 q3 ... qN –d deadline
+ 
 Searches the files for the words given in *d* seconds, and returns the lines containing those words.
 
+
 - /maxcount keyword
+
 It returns the file containing the keyword most times.
 
+
 - /maxcount keyword
+
 It returns the file containing the keyword the least times.
 
+
 - /wc
+
 The sum of bytes, words and lines of all files given to workers
+
 
 - /exit
 To exit
